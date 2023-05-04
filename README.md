@@ -10,7 +10,7 @@ Data una stringa formata solo da cifre, calcolare il prodotto più grande per un
 
 - Per l'ingresso "73167176531330624919225119674426574742355349194934", il prodotto più grande per una serie di 6 cifre è 23520.
 
-##Soluzione
+## Soluzione
 Per risolvere l'esercitazione iniziamo ponendo dei controlli che ci permettano di eliminare i vari errori che le varie istruzioni potrebbero darci, come ad esempio:
 ```
 if(span < 0 || span > digits.Count() || int.TryParse(digits, out s) == false){
